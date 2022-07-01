@@ -14,6 +14,9 @@
     {{- end }}
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
+      <!-- pv：表示依照點擊次數統計單篇文章閱覽數。 -->
+      
+      </div>
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
